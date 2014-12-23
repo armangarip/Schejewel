@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8707EFEC1A49F78D007EDB7F /* Prioritizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */; };
+		879EAC3E1A49CBD400F8986E /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */; };
+		879EAC401A49E59600F8986E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879EAC3F1A49E59600F8986E /* Event.swift */; };
+		87A27CC31A41CB2600E3CCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A27CC21A41CB2600E3CCDD /* AppDelegate.swift */; };
+		87A27CC51A41CB2600E3CCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A27CC41A41CB2600E3CCDD /* ViewController.swift */; };
+		87A27CC81A41CB2600E3CCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A27CC61A41CB2600E3CCDD /* Main.storyboard */; };
+		87A27CCA1A41CB2600E3CCDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A27CC91A41CB2600E3CCDD /* Images.xcassets */; };
+		87A27CCD1A41CB2600E3CCDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A27CCB1A41CB2600E3CCDD /* LaunchScreen.xib */; };
+		87A27CD91A41CB2600E3CCDD /* SchejewelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A27CD81A41CB2600E3CCDD /* SchejewelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A27CD31A41CB2600E3CCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A27CB51A41CB2600E3CCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A27CBC1A41CB2600E3CCDD;
+			remoteInfo = Schejewel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prioritizer.swift; sourceTree = "<group>"; };
+		879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		879EAC3F1A49E59600F8986E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		87A27CBD1A41CB2600E3CCDD /* Schejewel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schejewel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A27CC11A41CB2600E3CCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A27CC21A41CB2600E3CCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87A27CC41A41CB2600E3CCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87A27CC71A41CB2600E3CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A27CC91A41CB2600E3CCDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87A27CCC1A41CB2600E3CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		87A27CD21A41CB2600E3CCDD /* SchejewelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchejewelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A27CD71A41CB2600E3CCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A27CD81A41CB2600E3CCDD /* SchejewelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchejewelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A27CBA1A41CB2600E3CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A27CCF1A41CB2600E3CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A27CB41A41CB2600E3CCDD = {
+			isa = PBXGroup;
+			children = (
+				87A27CBF1A41CB2600E3CCDD /* Schejewel */,
+				87A27CD51A41CB2600E3CCDD /* SchejewelTests */,
+				87A27CBE1A41CB2600E3CCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A27CBE1A41CB2600E3CCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A27CBD1A41CB2600E3CCDD /* Schejewel.app */,
+				87A27CD21A41CB2600E3CCDD /* SchejewelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A27CBF1A41CB2600E3CCDD /* Schejewel */ = {
+			isa = PBXGroup;
+			children = (
+				87A27CC21A41CB2600E3CCDD /* AppDelegate.swift */,
+				87A27CC41A41CB2600E3CCDD /* ViewController.swift */,
+				87A27CC61A41CB2600E3CCDD /* Main.storyboard */,
+				87A27CC91A41CB2600E3CCDD /* Images.xcassets */,
+				87A27CCB1A41CB2600E3CCDD /* LaunchScreen.xib */,
+				87A27CC01A41CB2600E3CCDD /* Supporting Files */,
+				879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */,
+				879EAC3F1A49E59600F8986E /* Event.swift */,
+				8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */,
+			);
+			path = Schejewel;
+			sourceTree = "<group>";
+		};
+		87A27CC01A41CB2600E3CCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A27CC11A41CB2600E3CCDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A27CD51A41CB2600E3CCDD /* SchejewelTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A27CD81A41CB2600E3CCDD /* SchejewelTests.swift */,
+				87A27CD61A41CB2600E3CCDD /* Supporting Files */,
+			);
+			path = SchejewelTests;
+			sourceTree = "<group>";
+		};
+		87A27CD61A41CB2600E3CCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A27CD71A41CB2600E3CCDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A27CBC1A41CB2600E3CCDD /* Schejewel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A27CDC1A41CB2600E3CCDD /* Build configuration list for PBXNativeTarget "Schejewel" */;
+			buildPhases = (
+				87A27CB91A41CB2600E3CCDD /* Sources */,
+				87A27CBA1A41CB2600E3CCDD /* Frameworks */,
+				87A27CBB1A41CB2600E3CCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schejewel;
+			productName = Schejewel;
+			productReference = 87A27CBD1A41CB2600E3CCDD /* Schejewel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A27CD11A41CB2600E3CCDD /* SchejewelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A27CDF1A41CB2600E3CCDD /* Build configuration list for PBXNativeTarget "SchejewelTests" */;
+			buildPhases = (
+				87A27CCE1A41CB2600E3CCDD /* Sources */,
+				87A27CCF1A41CB2600E3CCDD /* Frameworks */,
+				87A27CD01A41CB2600E3CCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A27CD41A41CB2600E3CCDD /* PBXTargetDependency */,
+			);
+			name = SchejewelTests;
+			productName = SchejewelTests;
+			productReference = 87A27CD21A41CB2600E3CCDD /* SchejewelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A27CB51A41CB2600E3CCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = studentx;
+				TargetAttributes = {
+					87A27CBC1A41CB2600E3CCDD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					87A27CD11A41CB2600E3CCDD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 87A27CBC1A41CB2600E3CCDD;
+					};
+				};
+			};
+			buildConfigurationList = 87A27CB81A41CB2600E3CCDD /* Build configuration list for PBXProject "Schejewel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A27CB41A41CB2600E3CCDD;
+			productRefGroup = 87A27CBE1A41CB2600E3CCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A27CBC1A41CB2600E3CCDD /* Schejewel */,
+				87A27CD11A41CB2600E3CCDD /* SchejewelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A27CBB1A41CB2600E3CCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A27CC81A41CB2600E3CCDD /* Main.storyboard in Resources */,
+				87A27CCD1A41CB2600E3CCDD /* LaunchScreen.xib in Resources */,
+				87A27CCA1A41CB2600E3CCDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A27CD01A41CB2600E3CCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A27CB91A41CB2600E3CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879EAC401A49E59600F8986E /* Event.swift in Sources */,
+				87A27CC51A41CB2600E3CCDD /* ViewController.swift in Sources */,
+				879EAC3E1A49CBD400F8986E /* NewEventViewController.swift in Sources */,
+				8707EFEC1A49F78D007EDB7F /* Prioritizer.swift in Sources */,
+				87A27CC31A41CB2600E3CCDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A27CCE1A41CB2600E3CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A27CD91A41CB2600E3CCDD /* SchejewelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A27CD41A41CB2600E3CCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A27CBC1A41CB2600E3CCDD /* Schejewel */;
+			targetProxy = 87A27CD31A41CB2600E3CCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87A27CC61A41CB2600E3CCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A27CC71A41CB2600E3CCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87A27CCB1A41CB2600E3CCDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A27CCC1A41CB2600E3CCDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A27CDA1A41CB2600E3CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A27CDB1A41CB2600E3CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A27CDD1A41CB2600E3CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Schejewel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87A27CDE1A41CB2600E3CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Schejewel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87A27CE01A41CB2600E3CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchejewelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schejewel.app/Schejewel";
+			};
+			name = Debug;
+		};
+		87A27CE11A41CB2600E3CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchejewelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schejewel.app/Schejewel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A27CB81A41CB2600E3CCDD /* Build configuration list for PBXProject "Schejewel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A27CDA1A41CB2600E3CCDD /* Debug */,
+				87A27CDB1A41CB2600E3CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A27CDC1A41CB2600E3CCDD /* Build configuration list for PBXNativeTarget "Schejewel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A27CDD1A41CB2600E3CCDD /* Debug */,
+				87A27CDE1A41CB2600E3CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A27CDF1A41CB2600E3CCDD /* Build configuration list for PBXNativeTarget "SchejewelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A27CE01A41CB2600E3CCDD /* Debug */,
+				87A27CE11A41CB2600E3CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A27CB51A41CB2600E3CCDD /* Project object */;
+}
