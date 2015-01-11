@@ -17,16 +17,25 @@ class Prioritizer {
     
     func addEvent(event: Event){
         self.events.append(event)
-        println("Event titled \(event.title) added.")
+        self.sortEvents()
     }
     
-    func sortEvents(){
-        self.events.sort {
-            event1, event2 in
-            return event1.priority < event2.priority
+    func removeEvent(event: Event) {
+        for (index, curEvent) in enumerate(events) {
+            if curEvent.title == event.title {
+                events.removeAtIndex(index)
+                break
+            }
         }
     }
     
-    func populatePrioritizer(){
+    func sortEvents(){
+        for event in events {
+            event.calculateRealPriority()
+        }
+        self.events.sort {
+            event1, event2 in
+            return event1.realPriority > event2.realPriority
+        }
     }
 }

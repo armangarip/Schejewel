@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8707EFEC1A49F78D007EDB7F /* Prioritizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */; };
+		8734D7191A4B2273007F0DD1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8734D7181A4B2273007F0DD1 /* DetailsViewController.swift */; };
 		879EAC3E1A49CBD400F8986E /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */; };
 		879EAC401A49E59600F8986E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879EAC3F1A49E59600F8986E /* Event.swift */; };
 		87A27CC31A41CB2600E3CCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A27CC21A41CB2600E3CCDD /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prioritizer.swift; sourceTree = "<group>"; };
+		8734D7181A4B2273007F0DD1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		879EAC3F1A49E59600F8986E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		87A27CBD1A41CB2600E3CCDD /* Schejewel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schejewel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				879EAC3D1A49CBD400F8986E /* NewEventViewController.swift */,
 				879EAC3F1A49E59600F8986E /* Event.swift */,
 				8707EFEB1A49F78D007EDB7F /* Prioritizer.swift */,
+				8734D7181A4B2273007F0DD1 /* DetailsViewController.swift */,
 			);
 			path = Schejewel;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				879EAC3E1A49CBD400F8986E /* NewEventViewController.swift in Sources */,
 				8707EFEC1A49F78D007EDB7F /* Prioritizer.swift in Sources */,
 				87A27CC31A41CB2600E3CCDD /* AppDelegate.swift in Sources */,
+				8734D7191A4B2273007F0DD1 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
